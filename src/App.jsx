@@ -20,7 +20,7 @@ import Form from './Components/Form';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/e-commerce">
       {/* Full-height layout: header offset for fixed header, flex-grow for content */}
       <div className="flex flex-col h-screen lg:pt-28 pt-32">
         <Header />
