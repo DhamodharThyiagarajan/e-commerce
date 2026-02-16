@@ -1,0 +1,5 @@
+/**
+ * index.css - Global styles entry
+ * Imports Tailwind CSS; loaded in main.jsx for the whole app.
+ */
+@import "tailwindcss";
