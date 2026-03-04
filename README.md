@@ -2,7 +2,7 @@
 A modern, responsive e-commerce web application built with React.js, designed to deliver a seamless and engaging shopping experience.
 
 🚀 Features
- Product Listings – Real-time product from fakestoreapi.
+Product Listings – Real-time product from fakestoreapi.
 
 Search & Filters – Quickly find items using keyword search.
 
@@ -18,7 +18,6 @@ Frontend: React.js, React Router
 State Management: Redux
 
 Styling: Tailwind CSS / Material UI
-
 
 Deployment: Netlify / GitHub Pages
 
