@@ -1,16 +1,31 @@
-# React + Vite
+🛒 React.js E-Commerce Website
+A modern, responsive e-commerce web application built with React.js, designed to deliver a seamless and engaging shopping experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+ Product Listings – Real-time product from fakestoreapi.
 
-Currently, two official plugins are available:
+Search & Filters – Quickly find items using keyword search.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Shopping Cart & Checkout – Easy cart management with secure checkout flow.
 
-## React Compiler
+Responsive Design – Mobile-first layout using Tailwind/Material UI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Scalable Architecture – Modular components for future expansion (wishlists, Addtofavroite).
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Frontend: React.js, React Router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+State Management: Redux
+
+Styling: Tailwind CSS / Material UI
+
+
+Deployment: Netlify / GitHub Pages
+
+🎯 Project Highlights
+Component-based design for reusability and maintainability.
+
+Clean and intuitive UI for a smooth shopping journey.
+
+✨ Tagline
+"Seamless shopping, powered by React.js."
