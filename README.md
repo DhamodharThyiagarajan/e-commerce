@@ -129,7 +129,6 @@ Then the images will display here automatically:
 ### Wishlist Page
 ![Wishlist Page](./screenshots/wishlist.png)
 
-If you'd like, I can add the images for you — upload them to the workspace or tell me where they're hosted and I'll fetch them.
 
 **Useful Scripts**
 - **`dev`**: Start Vite dev server
