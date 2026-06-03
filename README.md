@@ -55,7 +55,7 @@ E-commerce/
 
 **Getting Started**
 
-=======
+
 
 Prerequisites: Node.js (16+ recommended) and npm or Yarn.
 
