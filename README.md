@@ -11,9 +11,7 @@
 
 
 
-**Folder Structure (visual)**
 
-![Folder Structure](./folder-structure.svg)
 
 **Folder Structure (text)**
 
