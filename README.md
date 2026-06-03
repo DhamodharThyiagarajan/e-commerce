@@ -9,21 +9,53 @@
 - **Responsive UI:** Mobile-first layout with reusable components.
 - **Tests:** Jest/React Testing Library unit tests under `src/__tests__`.
 
-**Project Structure:**
-- **Root files:** `package.json`, `vite.config.js`, `tailwind.config.js`, `babel.config.cjs`, `jest.config.cjs`
-- **Public:** Static assets served by Vite.
-- **src/**: Application source code
-  - `App.jsx`: Root React component
-  - `main.jsx`: App entry
-  - `index.css`: Global styles
-  - `action/`: Redux-like action creators (`action.js`, `actionType.js`)
-  - `Components/`: Reusable UI components
-    - `Banner.jsx`, `Form.jsx`, `ProductCard.jsx`, `Searchbar.jsx`
-    - `categories/`: `Electronics.jsx`, `Jewellery.jsx`, `Mens.jsx`, `Womens.jsx`
-    - `layout/`: `Footer.jsx`, `Header.jsx`, `Navbar.jsx`, `UserLocation.jsx`
-  - `Pages/`: Route pages (`CartPage.jsx`, `Home.jsx`, `Product_Detail_Page.jsx`, `Wishlist.jsx`)
-  - `reducer/`: Application reducer logic (`reducer.js`)
-  - `__tests__/`: Jest tests for components and reducers
+
+
+**Folder Structure (visual)**
+
+![Folder Structure](./folder-structure.svg)
+
+**Folder Structure (text)**
+
+```
+E-commerce/
+├─ package.json
+├─ vite.config.js
+├─ tailwind.config.js
+├─ babel.config.cjs
+├─ jest.config.cjs
+├─ public/
+├─ src/
+│  ├─ App.jsx
+│  ├─ main.jsx
+│  ├─ index.css
+│  ├─ action/
+│  │  ├─ action.js
+│  │  └─ actionType.js
+│  ├─ Components/
+│  │  ├─ Banner.jsx
+│  │  ├─ Form.jsx
+│  │  ├─ ProductCard.jsx
+│  │  └─ Searchbar.jsx
+│  │  ├─ categories/
+│  │  │  ├─ Electronics.jsx
+│  │  │  ├─ Jewellery.jsx
+│  │  │  ├─ Mens.jsx
+│  │  │  └─ Womens.jsx
+│  │  └─ layout/
+│  │     ├─ Footer.jsx
+│  │     ├─ Header.jsx
+│  │     ├─ Navbar.jsx
+│  │     └─ UserLocation.jsx
+│  ├─ Pages/
+│  │  ├─ CartPage.jsx
+│  │  ├─ Home.jsx
+│  │  ├─ Product_Detail_Page.jsx
+│  │  └─ Wishlist.jsx
+│  ├─ reducer/
+│  │  └─ reducer.js
+│  └─ __tests__/
+```
 
 **Getting Started**
 
@@ -71,7 +103,7 @@ npm run build
 
 
 
-
 ---
+
 
 
