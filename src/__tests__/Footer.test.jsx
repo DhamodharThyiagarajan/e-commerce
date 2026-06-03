@@ -9,7 +9,7 @@ describe('Footer component', () => {
   });
 
   it('scrolls to top when button clicked', () => {
-    window.scrollTo = jest.fn();
+    window.scrollTo = vi.fn();
     render(<Footer />);
     fireEvent.click(screen.getByLabelText(/back to top/i));
     expect(window.scrollTo).toHaveBeenCalled();

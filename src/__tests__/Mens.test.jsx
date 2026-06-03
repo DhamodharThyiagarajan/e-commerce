@@ -1,7 +1,7 @@
-jest.mock('../action/action', () => ({
+vi.mock('../action/action', () => ({
   fetchMens: () => ({ type: 'MOCK' }),
-  addToCart: jest.fn(),
-  addToFavorite: jest.fn(),
+  addToCart: vi.fn(),
+  addToFavorite: vi.fn(),
 }));
 
 import { render, screen } from '@testing-library/react';

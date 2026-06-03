@@ -1,19 +1,18 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import { act } from 'react';
 import Searchbar from '../Components/Searchbar';
 
 beforeEach(() => {
-  jest.useFakeTimers();
-  jest.clearAllMocks();
-  global.fetch = jest.fn(() => 
+  vi.useFakeTimers();
+  vi.clearAllMocks();
+  global.fetch = vi.fn(() => 
     Promise.resolve({
       json: async () => []
     })
   );
 });
 afterEach(() => {
-  jest.useRealTimers();
-  jest.restoreAllMocks();
+  vi.useRealTimers();
+  vi.restoreAllMocks();
 });
 
 describe('Searchbar component', () => {

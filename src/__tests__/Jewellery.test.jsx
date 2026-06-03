@@ -1,7 +1,7 @@
-jest.mock('../action/action', () => ({
+vi.mock('../action/action', () => ({
   fetchJewellerys: () => ({ type: 'MOCK' }),
-  addToCart: jest.fn(),
-  addToFavorite: jest.fn(),
+  addToCart: vi.fn(),
+  addToFavorite: vi.fn(),
 }));
 
 import { render, screen, act } from '@testing-library/react';
@@ -10,7 +10,7 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import { MemoryRouter } from 'react-router-dom';
 
-jest.useFakeTimers();
+vi.useFakeTimers();
 
 const products = [{ id: 4, title: 'Necklace', price: 50, image: 'neck.jpg', rating: { rate: 4, count: 1 } }];
 
@@ -22,7 +22,7 @@ const store = createStore(reducer);
 
 describe('Jewellery category page', () => {
   afterEach(() => {
-    jest.clearAllTimers();
+    vi.clearAllTimers();
   });
 
   it('renders heading and shows products after delay', () => {
@@ -36,7 +36,7 @@ describe('Jewellery category page', () => {
     expect(screen.getByText(/jewellery/i)).toBeInTheDocument();
     // advance timers and wrap in act to handle state updates
     act(() => {
-      jest.advanceTimersByTime(5000);
+      vi.advanceTimersByTime(5000);
     });
     expect(screen.getByText('Necklace')).toBeInTheDocument();
   });
