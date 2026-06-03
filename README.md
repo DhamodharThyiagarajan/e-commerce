@@ -2,6 +2,15 @@
 
 **Description:**: A React + Vite e-commerce website showcasing product listings, categories, cart, wishlist, and product details. Built with a component-based structure and unit tests.
 
+**Technologies Used:**
+- React 19
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Redux with Thunk
+- React Testing Library and Vitest
+- GitHub Pages deployment support
+
 **Features:**
 - **Product listings:** Browse products by category.
 - **Product detail:** View detailed product pages.
