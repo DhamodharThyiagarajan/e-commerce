@@ -122,7 +122,7 @@ Then the images will display here automatically:
 - Tests live in `src/__tests__`; run them while developing to keep behavior stable.
 - Component layout is under `src/Components/layout` — update `Navbar.jsx`, `Header.jsx`, or `Footer.jsx` to change site chrome.
 
-**Project Link:** https://github.com/DhamodharThyiagarajan/e-commerce
+**Project Link:** e-commerceshopify.netlify.app
 
 
 ---
