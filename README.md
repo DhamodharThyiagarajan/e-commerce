@@ -68,13 +68,10 @@ npm run build
 - Tests live in `src/__tests__`; run them while developing to keep behavior stable.
 - Component layout is under `src/Components/layout` — update `Navbar.jsx`, `Header.jsx`, or `Footer.jsx` to change site chrome.
 
-**Contributing**
-- Fork the repo and open a pull request. Run tests and ensure linting passes.
 
-**License**
-- Add your preferred license in `LICENSE` (MIT recommended for open source).
+
+
 
 ---
 
-If you want, I can also: add badges, expand setup instructions, or draft a CONTRIBUTING.md.
 
