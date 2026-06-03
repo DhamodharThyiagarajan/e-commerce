@@ -9,6 +9,7 @@
 - **Responsive UI:** Mobile-first layout with reusable components.
 - **Tests:** Jest/React Testing Library unit tests under `src/__tests__`.
 
+<<<<<<< HEAD
 **Project Structure:**
 - **Root files:** `package.json`, `vite.config.js`, `tailwind.config.js`, `babel.config.cjs`, `jest.config.cjs`
 - **Public:** Static assets served by Vite.
@@ -73,6 +74,8 @@ E-commerce/
 
 **Getting Started**
 
+=======
+
 Prerequisites: Node.js (16+ recommended) and npm or Yarn.
 
 1. Install dependencies
@@ -103,6 +106,7 @@ npm test
 npm run build
 ```
 
+<<<<<<< HEAD
 **Screenshots**
 
 Place the attached screenshots into the `screenshots/` folder with these filenames so they render below:
@@ -124,6 +128,8 @@ Then the images will display here automatically:
 
 If you'd like, I can add the images for you — upload them to the workspace or tell me where they're hosted and I'll fetch them.
 
+=======
+>>>>>>> d8a8e1cdab814cc4a000c2698606677e2ea4cd9d
 **Useful Scripts**
 - **`dev`**: Start Vite dev server
 - **`build`**: Build production bundle
