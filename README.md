@@ -106,30 +106,31 @@ npm test
 npm run build
 ```
 
-<<<<<<< HEAD
 **Screenshots**
 
 Place the attached screenshots into the `screenshots/` folder with these filenames so they render below:
 
-- `screenshots/dashboard.png` — E-commerce dashboard
+- `screenshots/dashboard.png` — Home Page
 - `screenshots/product-detail.png` — Product Detail Page
 - `screenshots/cart.png` — Cart Page
 - `screenshots/wishlist.png` — Wishlist Page
 
 Then the images will display here automatically:
 
+### Home Page
 ![E-commerce Dashboard](./screenshots/dashboard.png)
 
+### Product Detail Page
 ![Product Detail Page](./screenshots/product-detail.png)
 
+### Cart Page
 ![Cart Page](./screenshots/cart.png)
 
+### Wishlist Page
 ![Wishlist Page](./screenshots/wishlist.png)
 
 If you'd like, I can add the images for you — upload them to the workspace or tell me where they're hosted and I'll fetch them.
 
-=======
->>>>>>> d8a8e1cdab814cc4a000c2698606677e2ea4cd9d
 **Useful Scripts**
 - **`dev`**: Start Vite dev server
 - **`build`**: Build production bundle
