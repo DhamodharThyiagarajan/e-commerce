@@ -104,7 +104,7 @@ const Navbar = () => {
         </div>
       )}
 
-      <UserLocation />
+      Clearence up to 20% off 
     </nav>
   );
 };

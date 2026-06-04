@@ -21,7 +21,7 @@ function Searchbar() {
       .catch((err) => console.error(err));
   }, []);
 
-  // Update suggestions when debounced query or products change
+  // Update suggestions when debounced query or products changeg
   useEffect(() => {
     if (debouncedQuery.length > 0) {
       const filtered = products.filter((product) =>
