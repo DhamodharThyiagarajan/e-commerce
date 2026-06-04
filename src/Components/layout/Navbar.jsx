@@ -103,7 +103,7 @@ const Navbar = () => {
         </div>
       )}
 
-      <h1 className="text-yellow-400 font-bold text-lg md:text-xl lg:text-2xl text-center w-full"></h1>
+      
     </nav>
   );
 };
