@@ -5,7 +5,6 @@
  */
 
 import { useState } from "react";
-import UserLocation from "./UserLocation";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
