@@ -103,7 +103,7 @@ const Navbar = () => {
         </div>
       )}
 
-      Clearence up to 20% off 
+       <h1 className="text-yellow-400 font-bold text-lg">Clearence up to 20% off</h1>
     </nav>
   );
 };
